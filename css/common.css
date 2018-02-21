@@ -1,0 +1,358 @@
+@charset "UTF-8";
+
+
+/* ========BASIC======== */
+html {
+   overflow-y:scroll;
+}
+
+body {
+   margin:0;
+   padding:0;
+   line-height:1.6;
+   letter-spacing:1px;
+   font-family:"Times New Roman",sans-serif;
+   font-size:12px;
+   color:#333;
+   background:#fff;
+}
+
+.style1 {
+	vertical-align:top;
+	text-align: left; 
+	font-size: medium;
+}
+
+.style2 {
+	vertical-align:top;
+	text-align: left; 
+	font-size: small;
+}
+
+.style6 {
+	   font-family:Times New Roman;
+	vertical-align:top;
+	text-align: left; 
+	font-size: x-small;
+}
+
+
+.style19 {
+				border-style: solid;
+				border-width: 0;
+				vertical-align:top;
+				background-color: #FFCCFF;
+				font-weight: bold;
+}
+
+.style7 {
+				border-style: solid;
+				border-width: 0;
+				vertical-align:top;
+				background-color: #ddddff;
+				font-weight: bold;
+}
+
+.style8 {
+			vertical-align:top;
+			text-align: right;
+			border-style: solid;
+			border-color: #FFFFFF;
+			font-weight: bold;
+}
+.style10 {
+				border: 0 solid #FFFFFF;
+}
+.style11 {
+				border: 0 solid #FFFFFF;
+				background-color: #CCFFFF;
+}
+.style14 {
+				border-style: solid;
+				border-width: 0;
+				background-color: #FFCC99;
+}
+.style18 {
+				text-align: left;
+}
+.style20 {
+				margin-left: 20px;
+}
+
+.style4 {
+				border: 0 solid #FFFFFF;
+				background-color: #FFFF00;
+}
+.style3 {
+				border: 0 solid #FFFFFF;
+				font-weight: bold;
+				background-color: #FFFF00;
+}
+.style5 {
+				border: 0 solid #FFFFFF;
+				background-color: #FFFF00;
+}
+
+
+
+
+
+br {
+   letter-spacing:normal;
+}
+
+a {
+   color:#0000ff;
+   text-decoration:none;
+}
+
+a:hover {
+   color:#0089a1;
+   text-decoration:underline;
+}
+
+img {
+   border:0;
+   vertical-align:bottom;
+}
+
+h1,h2,h4,h6 {
+   margin:0;
+}
+
+
+
+/* ========TEMPLATE LAYOUT======== */
+#top {
+   width:800px;
+   margin:10px auto;
+   border:1px solid #666;
+}
+
+#header {
+   width:795px;
+   background:#FFFFfe;
+}
+
+#topicPath {
+   float:left;
+}
+
+/* ==　背景色指定　== */
+#contents {
+/*   background:#f5f5c0;*/
+   background:#FFFFCC;
+}
+
+#main {
+   display:inline;/* for IE6 */
+   float:right;
+   width:675px;
+   margin:2px;
+   margin-right:0;
+   padding:8px;
+   background:#fff;
+	border: solid #808000;
+
+}
+
+
+#sub {
+   display:inline;
+   float:left;
+   width:90px;
+   margin:px;
+   margin:2px;
+   
+}
+
+#pageTop {
+   /zoom:1;/* for IE6 */
+   clear:both;
+   background:#fff;
+}
+
+#footer {
+   clear:both;
+   background:#fff;
+}
+
+
+/* ========HEADER CUSTOMIZE======== */
+#header h1 {
+   margin:0;
+   padding:10px;
+   font-size:24px;
+}
+
+#header h1 a {
+   color:#333;
+}
+
+#header #pr p {
+   margin:0;
+   padding:10px;
+   font-size:11px;
+}
+
+
+
+
+/* ========TOPICPATH CUSTOMIZE======== */
+#topicPath {
+   width:790px;
+   padding:5px;
+   background:#fff;
+}
+
+
+/* ========MAIN CONTENTS CUSTOMIZE======== */
+#main h2 {
+   margin-bottom:5px;
+   padding:5px 0;
+   font-size:16px;
+   border-bottom:3px double #999;
+}
+
+
+
+#main h3 {
+padding: 5px 5px 5px 5px;
+background: #eeaa00;
+font-size: 20px;
+color: white;
+}
+
+#main h4 {
+   margin-bottom:5px;
+   padding:5px;
+   font-size:15px;
+   color:#fff;
+   background:#0089a1;
+}
+
+#main h5 {
+   margin-bottom:5px;
+   font-size:13px;
+   border-bottom:1px dotted #999;
+   text-align: right; 
+}
+
+#main h6 {
+   margin-bottom:5px;
+   font-size:13px;
+}
+
+#main p {
+   margin:0 0 1em 0;
+}
+
+#main dt {
+   margin-bottom:3px;
+}
+
+#main dd {
+   padding:0;
+   margin:0 0 0.5em 1em;
+   padding:3px;
+   background:#eee;
+}
+
+/* INFORMATION CUSTOMIZE */
+* html body #main dl.information dd div {
+   display:inline-block;
+}
+
+.styleto {
+	margin-left: auto;
+}
+
+#main dl.information dt {
+   float:left;
+   width:8em;
+   margin:0;
+   padding:0;
+}
+
+#main dl.information dd {
+   margin:0 0 0.5em 8em;
+   padding:0;
+   background:transparent;
+}
+
+#main table {
+}
+
+#main table th {
+   padding:5px;
+}
+
+#main table td {
+   padding:5px;
+}
+
+
+/* ========SUBCONTENTS CUSTOMIZE======== */
+#sub .section {
+   margin-bottom:10px;
+}
+
+#sub h3 {
+   padding:5px;
+   font-size:13px;
+   font-weight:bold;
+   color:#333;
+   text-align:center;
+   border-bottom:3px solid #0089a1;
+   background:#efefef;
+   background:-linear-gradient(top, #fff, #efefef);
+   background:-moz-linear-gradient(top, #fff, #efefef); /* Firefox用 */
+   background:-o-linear-gradient(top, #fff, #efefef); /* Opera用 */
+   background:-webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef)); /* Safari,Google Chrome用 */
+}
+
+#sub ul {
+   overflow:hidden;
+   margin:0;
+   padding:0;
+   background:#fff;
+}
+
+#sub li {
+   width:198px;
+   margin-top:-1px;
+   line-height:1.4;
+   list-style:none;
+   border-top:1px solid #ccc;
+}
+
+#sub li a {
+   display:block;
+   padding:10px 5px;
+}
+
+
+/* ========PAGETOP CUSTOMIZE========= */
+#pageTop {
+   margin-top:10px;
+   padding:5px;
+   text-align:right;
+}
+
+#pageTop a {
+   padding:5px 5px 5px 17px;
+   background:url("../images/bg_pagetop.gif") 7px 50% no-repeat;
+   font-size:11px;
+   outline:none;
+}
+
+
+/* ========FOOTER CUSTOMIZE======== */
+.copyright {
+   clear:both;
+   padding:10px 0;
+   font-style:normal;
+   font-size:11px;
+   text-align:center;
+   border-top:1px solid #ccc;
+}
